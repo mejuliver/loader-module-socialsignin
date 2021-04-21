@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>How to Use</title>
+</head>
+<body>
+	<h3>Load script</h3>
+	<pre>
+		$loader-&gt;load('socialsignin')-&gt;init(&lt;config&gt;,&lt;url&gt;);
+	</pre>
+	<p><strong>Config</strong></p>
+	<pre>
+		[
+			'console' =&gt; < 1 means all errors will be shown on console >,
+			'fb' =&gt; [
+				'client_id' =&gt; &lt; fb app id &gt;,
+				'version' =&gt;  &lt; sdk version &gt;,
+				'url' =&gt; &lt; url for backend submission &gt;,
+				'result' =&gt; &lt; result function &gt;,
+			],
+			'google' =&gt; [
+				'client_id' =&gt; &lt; google app id &gt;,
+				'url' =&gt; &lt; url for backend submission &gt;,
+				'result' =&gt; &lt; result function &gt;,
+			]
+		]
+	</pre>
+	<h3>Bind Social Classes and Identifier</h3>
+	<p>Example</p>
+	<pre>
+		&lt;button class="socialSignin" data-type="fb"&gt;test&lt;/button&gt;
+		&lt;button class="socialSignin" data-type="google"&gt;test&lt;/button&gt;
+	</pre>
+	
+</body>
+</html>

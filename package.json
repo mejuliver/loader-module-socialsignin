@@ -1,0 +1,22 @@
+{
+  "name": "loader-module-social",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loader.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/utso-pulgada/loader-module-social.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/utso-pulgada/loader-module-social#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
